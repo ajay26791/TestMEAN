@@ -1,6 +1,6 @@
 var express=require("express");
 var app=express();
-var db=require("monk")("45.112.250.108:27017/TestDB");
+var db=require("monk");
 var user=db.get("user");
 
 
